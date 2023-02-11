@@ -1,5 +1,5 @@
 public class Sorter {
-    void sort(int arr[])
+    void selectionSort(int arr[])
     {
         int n = arr.length;
  
@@ -38,4 +38,5 @@ public class Sorter {
         System.out.println("Sorted array");
         ob.printArray(arr);
     }
+    
 }
